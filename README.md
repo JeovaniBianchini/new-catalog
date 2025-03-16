@@ -12,12 +12,20 @@ A aplicação tem a funcionalidade de um catálogo de produtos, no qual pode-se 
 ## Tecnologias aplicadas até o momento
 - Java 17
 - Spring Boot 3
+- JUnit 5
 
 ## Ferramentas para o desenvolvimento até o momento 
 - Intellij IDEA Comunity
 - Maven
 - Banco de dados H2
 - Postman
+
+## Funcionalidades implementadas até o momento
+- CRUD de produtos e categorias
+- Implementação de camadas usando padrão DTO
+- Impletantação de exceptions personalizadas
+- Implementação de testes unitários com Mockito usando padrão AAA
+- Implementação de testes integrado usando o padrão AAA
 
 # Como executar o projeto
 Pré-requisitos: Java 17
@@ -30,7 +38,6 @@ git clone https://github.com/JeovaniBianchini/new-catalog
 ./mvnw spring-boot:run
 ```
 # Próximas etapas do projeto
-- Implementação de testes
 - Adicionar validação e segurança
 - Consultas SQL
 
